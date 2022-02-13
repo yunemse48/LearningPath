@@ -1,1 +1,3 @@
 # LearningPath
+
+This repo is to track the progress on my learning path for different languages, technologies, frameworks, etc. Hope to keep it posted and rich...
