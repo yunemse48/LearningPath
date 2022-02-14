@@ -108,4 +108,13 @@ Submit *indoor-outdoor=outdoor*
 
 # `div` Elements
 The div element, also known as a division element, is a general purpose container for other elements. It's non-self-closing. 
-
+```
+<div>
+  <p> This is a paragraph.</p>
+  <ul>
+    <li>Red</li>
+    <li>Blue</li>
+  </ul>
+  <img src="example.png" alt="example">
+</div>
+```
