@@ -41,3 +41,60 @@ Font size of an element is controlled by `font-size` property of CSS.
   }
 </style>
 ```
+
+# Import Google Fonts
+Import a font from https://fonts.google.com/, then use it via `font-family` property. If the font name includes any whitespaces, make sure you wrap the font name inside double quotes.
+In this example, Lato font is imported, and monospace is also called in case Lato cannot be found.
+```
+<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<style>
+  p {
+    font-family: Lato, monospace;
+  }
+</style>
+```
+# Image Sizing
+```
+<style>
+  .menu-image {
+    width: 50px;
+  }
+</style>
+```
+
+# Multiple Classes
+`<img class="class1 class2" src="https://....">`
+
+# CSS Borders
+```
+.thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+  }
+```
+For circular images: `border-radius: 50%;`
+
+# Background Colour
+```
+.green-background {
+  background-color: green;
+}
+```
+
+# ID vs Class
+The only difference between them is that “id” is unique in a page and can only apply to at most one element, while “class” selector can apply to multiple elements. ID has a higher importance over class selectors.
+```
+<style>
+ #cover {
+ }
+ 
+ .coverimg{
+ }
+</style>
+.
+.
+<img id="cover" class="coverimg" src="...." alt="....">
+```
+
