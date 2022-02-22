@@ -97,7 +97,7 @@ The only difference between them is that “id” is unique in a page and can on
 .
 <img id="cover" class="coverimg" src="...." alt="....">
 ```
-# Padding & MArgin
+# Padding & Margin
 **Padding** controls the space between the content and its border. 
 **Margin** controls the space between its border and the outer/surrounding elements.
 ```
