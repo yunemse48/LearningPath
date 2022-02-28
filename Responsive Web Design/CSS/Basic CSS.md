@@ -105,13 +105,28 @@ The only difference between them is that “id” is unique in a page and can on
     background-color: crimson;
     color: #fff;
     padding: 20px;
-    margin: -15px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
   }
 
   .blue-box {
     background-color: blue;
     color: #fff;
-    padding: 20px;
-    margin: 20px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    // padding: 40px 20px 20px 40px; clockwise notation from top-right-bottom-left
   }
+```
+
+# Attribute Selectors
+Select elements by their attributes and corresponding values.
+```
+[type='button'] {
+    margin: 10px;
+}
 ```
