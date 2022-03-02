@@ -125,8 +125,35 @@ The only difference between them is that “id” is unique in a page and can on
 
 # Attribute Selectors
 Select elements by their attributes and corresponding values.
+
 ```
 [type='button'] {
     margin: 10px;
+    padding: 1.5em; //relative property
 }
 ```
+# The Override in Subsequent CSS Classes
+- The second declaration will always take precedence over the first in **style** blocks.
+- ID attributes always take precedence over Class attributes in **style** blocks.
+- Inline CSS styling is applied rather than **style** blocks.
+- The last and most powerful way to make sure that a CSS is absolutely applied, use `!important` keyword.
+```
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+  .pink-text {
+    color: pink !important; //no matter what other overrides are, this is the highest priority
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color: white;">Hello World!</h1>
+```
+
