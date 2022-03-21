@@ -13,7 +13,7 @@ AMOUNT = 10; //error
 ```
 
 # Arrays
-## Legnth
+## Length
 ```js
 const arr = [0, 1, 2, 3]
 var lengthOfArray = arr.length
@@ -21,8 +21,9 @@ var lengthOfArray = arr.length
 
 ## Append - Pop Off the First & Last Data
 ```js
-myArr = [0, 1]
-myArr.push(["text", 5])
-const removedLast = myArr.pop()
-const removedFirst = myArr.shift()
+myArr = [0, 1];
+myArr.push(["text", 5]);
+const removedLast = myArr.pop();
+const removedFirst = myArr.shift();
+const addedFirst = myArr.unshift("hello");
 ```
